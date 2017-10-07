@@ -54,11 +54,12 @@ main{
   align-items: center;
   justify-content: center;
   background-image: url("../images/img-mission-background.jpg");
-  width: 88%;
+  width: 80%;
   margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
+  margin-bottom: 30px;
 }
 
 #mission h2, h4{
@@ -70,4 +71,39 @@ main{
 
 #mission h2{
   padding-top: 10px;
+}
+
+/*Featured section*/
+#featured{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#featured h2, h4{
+  width: 1000px;
+}
+
+#featured h4{
+  margin-bottom: 10px;
+}
+
+.items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.items figure{
+  margin: 0 16px 10px 16px;
+}
+
+.items figcaption{
+  margin-bottom: 10px;
 }
