@@ -18,14 +18,16 @@ header{
   position: fixed;
   z-index: 1;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
 .logo{
   display: flex;
-  padding-right: 780px;
+  padding-right: 760px;
   padding-left: 10px;
 }
 
+/*Header navigation styling*/
 header nav{
   margin-right: 2px;
 }
@@ -37,4 +39,35 @@ header nav span{
 
 header nav span a{
   color: seashell;
+}
+/*Main container styling*/
+main{
+  margin-top: 0;
+  padding-top: 69px;
+}
+
+/*Mission section styling*/
+#mission{
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/img-mission-background.jpg");
+  width: 88%;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#mission h2, h4{
+  background-color: black;
+  width: 1200px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+#mission h2{
+  padding-top: 10px;
 }
