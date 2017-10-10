@@ -62,15 +62,20 @@ main{
   margin-bottom: 30px;
 }
 
-#mission h2, h4{
-  background-color: black;
+#mission h2{
   width: 1200px;
+  background-color: black;
+  padding-top: 10px;
   margin: 0;
   padding-bottom: 10px;
 }
 
-#mission h2{
+#mission h4{
+  background-color: black;
   padding-top: 10px;
+  width: 1200px;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 /*Featured section*/
@@ -83,12 +88,14 @@ main{
   margin: 0 auto;
 }
 
-#featured h2, h4{
+#featured h2{
   width: 1000px;
+  margin-bottom: 0;
 }
 
 #featured h4{
-  margin-bottom: 10px;
+  width: 1000px;
+  margin 15px auto;
 }
 
 .items{
