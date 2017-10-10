@@ -21,10 +21,15 @@ header{
   background-color: black;
 }
 
+/*Logo styling*/
 .logo{
   display: flex;
   padding-right: 760px;
   padding-left: 10px;
+}
+
+.logo img{
+  height: 50px;
 }
 
 /*Header navigation styling*/
@@ -111,6 +116,41 @@ main{
   margin: 0 16px 10px 16px;
 }
 
+.items figure img{
+  width: 300px;
+  height: 200px;
+}
+
 .items figcaption{
   margin-bottom: 10px;
+}
+
+/*Locations section*/
+#locations{
+  display: flex;
+  flex-direction: column;
+  background-image: url("../Images/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.location-row{
+  display: flex;
+  flex-direction: row;
+}
+
+#locations h2{
+  margin-bottom: 15px;
+}
+
+.location-box{
+  color: seashell;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
+  width: 300px;
 }
