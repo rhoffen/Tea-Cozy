@@ -53,7 +53,7 @@ main{
   height: 700px;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/img-mission-background.jpg");
+  background-image: url("../Images/img-mission-background.jpg");
   width: 80%;
   margin: 0 auto;
   background-size: cover;
