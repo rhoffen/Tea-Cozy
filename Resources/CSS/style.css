@@ -122,7 +122,8 @@ main{
 }
 
 .items figcaption{
-  margin-bottom: 10px;
+  margin: 10px auto;
+  font-weight: bold;
 }
 
 /*Locations section*/
@@ -144,7 +145,7 @@ main{
 }
 
 #locations h2{
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 
 .location-box{
@@ -153,4 +154,38 @@ main{
   opacity: 1;
   margin: 15px 20px;
   width: 300px;
+}
+
+/*Contact styling*/
+
+address{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  margin-bottom: 20;
+}
+
+address h2{
+  margin: 0;
+}
+
+address h5{
+  margin: 15px 0 0 0;
+}
+address a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.copyright{
+  display: flex;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.copyright h5{
+  margin: 0 20px;
 }
